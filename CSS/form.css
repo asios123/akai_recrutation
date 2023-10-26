@@ -1,0 +1,184 @@
+
+body{
+  background-color: rgb(255, 255, 255);
+
+}
+
+.task-frontend form>label {
+  text-transform: uppercase;
+	margin: 10px auto 0 auto;
+}
+
+.task-frontend input[type="text"] {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid rgb(116, 26, 100);
+  width: 80%;
+  height: 30px;
+  background-color: rgb(255, 245, 255);
+}
+
+
+
+.task-frontend span {
+  display: block;
+}
+
+
+
+.grid-item-b[type="submit"] {
+	color: rgb(247, 100, 188);
+  background-color: rgb(75, 29, 60);
+	margin-top: 10px;
+  margin-left: 35%;
+  
+  border-radius: 13px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+
+  .grid-container{
+  
+  display: grid;
+  width: 28%;
+  height: 100%;
+  position: relative;
+  left: 35%;
+  border: black solid 3px;  
+  border-radius: 13px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  }
+  
+  .grid-item{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 11px;
+  }
+  .grid-item-j{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 11px;
+    padding: 3%;
+  }
+
+.grid-container::before{
+  content: "";
+  background-size: cover;
+  background-image: url("back.jpg"); 
+  opacity: 0.2;
+  filter: blur(3px);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.grid-item-s{
+ 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  background-color: rgb(255, 245, 255); 
+  border: 2px solid rgb(116, 26, 100);
+  width: 82%;
+  height: 37px;
+  border-radius: 11px;
+  display: block;
+  margin: 10px auto;
+  
+}
+
+.formularz{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bolder;
+}
+.basic-title{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bolder;
+}
+.data{
+  text-align: center;
+  border-radius: 11px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.task-frontend input:focus {
+  border-color: rgb(116, 26, 100);
+  outline: none;
+  
+}
+.grid-item-c{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(116, 26, 100);
+  outline: none;
+  overflow: hidden;
+  vertical-align: bottom;
+  margin-left: 30px;
+  
+  
+}
+.grid-item-c:checked::before{
+  content: "✔"; color: rgb(0, 74, 51);
+  display: block;
+  text-align: center;
+  font-size: 12px; 
+  line-height: 12px; 
+  background-color:rgb(255, 245, 255); 
+  margin: 0;
+  padding: 0;
+}
+.select{
+  color: rgb(0, 0, 0);
+  text-indent: -15px;
+  position: center;
+	text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.grid-item-c1{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(116, 26, 100);
+  outline: none;
+  overflow: hidden;
+  vertical-align: bottom;
+  position: center;
+  margin-left: 58px;
+}
+.grid-item-c1:checked::before{
+  content: "✔"; color: rgb(0, 74, 51);
+  display: block;
+  text-align: center;
+  font-size: 12px; 
+  line-height: 12px; 
+  background-color:rgb(255, 245, 255); 
+  margin: 0;
+  padding: 0;
+}
+.header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}

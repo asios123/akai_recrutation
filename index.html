@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AKAI Frontend Task</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<body>
+    <div class="grid-container">
+       
+	<section class="task-frontend">
+
+        <div class="grid-item">Application form</div>
+
+		
+
+		
+
+		<form id="formularz" method="POST">
+            <div>
+		    <input type="text" id="First name" class="grid-item" placeholder="First Name"/>
+            <div class="error-message" id="First name-error"></div>
+            </div>
+
+            <div>
+		    <input type="text" id="Last name" class="grid-item" placeholder="Last Name"/>
+            <div class="error-message" id="Last name-error"></div>
+            </div>
+
+            <div>
+		    <input type="text" id="e-mail" class="grid-item" placeholder="e-mail"/>
+            <div class="error-message" id="e-mail-error"></div>
+            </div>
+
+            <div>
+		    <input type="text" id="Phone number" class="grid-item" placeholder="Phone number"/>
+            <div class="error-message" id="Phone number-error"></div>
+            </div>
+
+            
+            <div class="grid-item">Univeristy:</div>
+            <div>
+            <select name="university" id="university" class="grid-item-s">
+                <option value="Poznań University of Economics and Business" class="grid-item-s">Poznań University of Economics and Business</option>
+                <option value="Poznan Univeristy of Technology" class="grid-item-s">Poznan Univeristy of Technology</option>
+                <option value="Adam Mickiewicz University" class="grid-item-s">Adam Mickiewicz University </option>
+            </select>
+            <div class="error-message" id="university-error"></div>
+            </div>
+            
+            <div>
+            <div class="grid-item">Others:</div>
+            <input type="text" class="grid-item">
+            </div>
+            <div>
+            <div class="grid-item">Experience (optional):</div>
+            <input type="text" id="experience" class="grid-item" name="experience">
+            </div>
+
+            <div>
+			<div class="grid-item">Sections, which you are interested in:</div>
+            <input type="checkbox" id="section" class="grid-item-c" name="section" value="frontend">
+            <label for="frontend" class="grid-item">Frontend </label>
+            <input type="checkbox" id="section" class="grid-item-c" name="section" value="backend">
+            <label for="backend-checkbox" id="section" class="grid-item">Backend</label>
+            <br>
+            <input type="checkbox" id="section" class="grid-item-c" name="section" value="frontend">
+            <label for="mobile-checkbox" class="grid-item">Mobile</label>
+            
+            <input type="checkbox" id="section" class="grid-item-c1" name="section" value="frontend">
+            <label for="graphics-checkbox" class="grid-item">Graphics</label>
+            <div class="error-message" id="section-error"></div>
+            </div>
+            
+            <input type="submit" class="grid-item-b" value="Submit">
+		</form>
+
+		
+        <div class="grid-item-j">Join us! :)</div>
+	</section>
+
+</div>
+
+	
+
+<script src="JS/form.js"></script> 
+</body>
+</html>
